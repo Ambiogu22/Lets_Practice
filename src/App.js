@@ -1,10 +1,10 @@
 import React from 'react';
-import './style.css';
+import './assets/style.css'
 
 export default function App() {
   return (
     <div>
-        <h2>Main!</h2>
+      <h2>test!!</h2>
     </div>
   );
 }
