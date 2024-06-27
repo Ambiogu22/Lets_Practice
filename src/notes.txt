@@ -1,3 +1,0 @@
-Practice useContext
-
-Start creating idea for VitFresh - VFresh
