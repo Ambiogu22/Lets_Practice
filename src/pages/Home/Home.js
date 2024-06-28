@@ -8,7 +8,7 @@ import NewProductCard from './NewProductCard';
 const Home = () => {
     return(
         <div>
-            <div className='flex flex-col my-20 gap-10'>
+            <div className='flex flex-col my-24 gap-10'>
                 <div className='relative flex justify-center items-center'>
                     <img src={GreenJuice} alt="Green Juice Image" />
                     <Link to='/' className='absolute bottom-8'><Button title="Shop Now"/></Link>
