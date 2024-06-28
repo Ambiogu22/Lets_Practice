@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCartShopping, faBarsStaggered } from '@fortawesome/free-solid-svg-icons'
 import { useState } from "react";
-import { set } from "react-hook-form";
 
 const NavBar = () => {
 
@@ -19,7 +18,7 @@ const NavBar = () => {
                     {bar == false 
                     ?
                         <>
-                            <FontAwesomeIcon icon={faBarsStaggered} className="text-2xl font-bold" onClick={handleBar}/>
+                            <FontAwesomeIcon icon={faBarsStaggered} className="text-2xl" onClick={handleBar}/>
                             <Link to="/" className="text-xl font-bold">VFRESH</Link>
                         </>
                     :
@@ -31,7 +30,7 @@ const NavBar = () => {
                     }
                 </div>
                 <div>
-                    <Link to="/" className="text-2xl"><FontAwesomeIcon icon={faCartShopping} onClick={()=>setBar(false)}/></Link>
+                    <Link to="/" className="text-xl"><FontAwesomeIcon icon={faCartShopping} onClick={()=>setBar(false)}/></Link>
                 </div>
             </div>
         </div>
