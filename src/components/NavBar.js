@@ -12,8 +12,7 @@ const NavBar = () => {
     }
 
     return(
-        <div>
-            <div className="flex items-center justify-between py-8 px-12 shadow-[0px_-2px_10px_0px] shadow-[#8A8A8A]">
+            <div className="flex items-center justify-between py-8 px-12 shadow-[0px_-2px_10px_0px] shadow-[#8A8A8A] sticky w-full z-50 top-0 bg-[#FFF]">
                 <div className="flex gap-8 items-center">
                     {bar == false 
                     ?
@@ -33,7 +32,6 @@ const NavBar = () => {
                     <Link to="/" className="text-xl"><FontAwesomeIcon icon={faCartShopping} onClick={()=>setBar(false)}/></Link>
                 </div>
             </div>
-        </div>
     )
 }
 
