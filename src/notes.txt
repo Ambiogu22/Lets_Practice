@@ -1,3 +1,5 @@
--Adding anything else to Home Page?
+-Create and finish Context
 
--Start creating Shop Page
+-Add functions to Cart from Context
+
+-Finish Cart
