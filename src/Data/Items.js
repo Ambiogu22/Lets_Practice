@@ -1,96 +1,25 @@
-import GreenJuiceImg from '../assets/greenPressedBottle.png'; //Remove/Change Image
-import OrangeTesting from '../assets/greenPressedBottle.png'; //Remove/Change Image
+import GreenPressedBottle from '../assets/greenPressedBottle.png'; //Remove/Change Image
 
 const itemsArray = [
     {
         id: 1,
         title: "Green",
-        image: GreenJuiceImg,
+        image: GreenPressedBottle,
         price: 4.99,
         shortDescription: "WIP",
         LongDescription: "WIP",
-        newItem: false
+        newItem: false,
+        available: false
     },
     {
         id: 2,
-        title: "Orange",
-        image: OrangeTesting,
-        price: 4.99,
+        title: "5x5 Detox Carrot Juice",
+        image: GreenPressedBottle,
+        price: 29.99,
         shortDescription: "WIP",
         LongDescription: "WIP",
-        newItem: false
-    },
-    {
-        id: 1,
-        title: "Green",
-        image: GreenJuiceImg,
-        price: 4.99,
-        shortDescription: "WIP",
-        LongDescription: "WIP",
-        newItem: false
-    },
-    {
-        id: 2,
-        title: "Orange",
-        image: OrangeTesting,
-        price: 4.99,
-        shortDescription: "WIP",
-        LongDescription: "WIP",
-        newItem: false
-    },
-    {
-        id: 1,
-        title: "Green",
-        image: GreenJuiceImg,
-        price: 4.99,
-        shortDescription: "WIP",
-        LongDescription: "WIP",
-        newItem: false
-    },
-    {
-        id: 2,
-        title: "Orange",
-        image: OrangeTesting,
-        price: 4.99,
-        shortDescription: "WIP",
-        LongDescription: "WIP",
-        newItem: false
-    },
-    {
-        id: 1,
-        title: "Green",
-        image: GreenJuiceImg,
-        price: 4.99,
-        shortDescription: "WIP",
-        LongDescription: "WIP",
-        newItem: false
-    },
-    {
-        id: 2,
-        title: "Orange",
-        image: OrangeTesting,
-        price: 4.99,
-        shortDescription: "WIP",
-        LongDescription: "WIP",
-        newItem: false
-    },
-    {
-        id: 1,
-        title: "Green Green Green",
-        image: GreenJuiceImg,
-        price: 4.99,
-        shortDescription: "WIP",
-        LongDescription: "WIP",
-        newItem: false
-    },
-    {
-        id: 2,
-        title: "Orange",
-        image: OrangeTesting,
-        price: 4.99,
-        shortDescription: "WIP",
-        LongDescription: "WIP",
-        newItem: false
+        newItem: false,
+        available: false
     }
 ]
 
