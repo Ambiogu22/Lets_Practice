@@ -22,9 +22,9 @@ const NavBar = () => {
                         </>
                     :
                         <>
-                            <Link to="/" className="text-2xl font-bold" onClick={handleBar}><FontAwesomeIcon icon={faBarsStaggered}/> </Link>
+                            <FontAwesomeIcon icon={faBarsStaggered} className="text-2xl font-bold" onClick={handleBar}/>
                             <Link to="/" className="text-lg font-semibold" onClick={handleBar}>Home</Link>
-                            <Link to="/" className="text-lg font-semibold" onClick={handleBar}>Shop</Link>
+                            <Link to="/shop" className="text-lg font-semibold" onClick={handleBar}>Shop</Link>
                         </>
                     }
                 </div>

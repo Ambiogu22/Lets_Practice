@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
 return(
-    <div className="flex flex-col justify-center items-start px-20 py-10 bg-[#000]">
+    <div className="flex flex-col justify-center items-start px-20 py-10 bg-[#000] w-full">
         <Link to="/" className="text-lg font-bold text-[#FFF]">VFRESH</Link>
         <div className="flex flex-col py-6 mt-8 gap-2">
             <h2 className="text-[#FFF] font-semibold text-md">SHOP</h2>
