@@ -1,5 +1,5 @@
-import GreenJuiceImg from '../assets/GreenJuice.jpg';
-import OrangeTesting from '../assets/carrotJuice.jpg'; //Remove/Change Image
+import GreenJuiceImg from '../assets/greenPressedBottle.png'; //Remove/Change Image
+import OrangeTesting from '../assets/greenPressedBottle.png'; //Remove/Change Image
 
 const itemsArray = [
     {

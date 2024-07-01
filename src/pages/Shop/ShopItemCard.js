@@ -1,11 +1,12 @@
+
 const ShopItemCard = (props) => {
 
     const item = props.item
     return(
-        <div className="flex flex-col bg-[#EEEEEE] px-4 py-4 flex justify-center items-center gap-6 rounded-lg">
-            <div className="flex max-w-40 min-h-44 flex-col justify-center items-center text-center gap-2">
-                <img src={item.image} alt={item.title} className="w-40"/>
-                <h2 className="text-lg font-semibold">{item.title}</h2>
+        <div className="flex flex-col bg-[#EEEEEE] px-4 py-6 flex justify-center items-center gap-8 rounded-lg">
+            <div className="flex max-w-32 max-h-40 flex-col justify-around items-center text-center">
+                <img src={item.image} alt={item.title} className="w-32"/>
+                <h2 className="text-md font-semibold">{item.title}</h2>
             </div>
             <div className="flex flex-col justify-center items-center gap-2">
                 <h2>${item.price}</h2>
