@@ -14,9 +14,9 @@ const Home = () => {
                     <Link to='/' className='absolute bottom-8'><Button title="Shop Now"/></Link>
                 </div>
                 <div className='flex flex-col justify-center items-center gap-20'>
-                    <div className='flex flex-col justify-center items-center gap-4'>
+                    <div className='flex flex-col justify-center items-center gap-4 px-8'>
                         <h2 className="greenJuice text-4xl font-bold">Green Juice!</h2>
-                        <p className='text-xl font-semibold'>Enjoy a delicious, fresh and natural green juice</p>
+                        <p className='text-xl font-semibold text-center'>Enjoy a delicious, fresh and natural green juice</p>
                     </div>
                     <div className='flex flex-col justify-center items-center gap-4 px-8 homeBgAnimation pt-10 pb-28 relative'>
                         <h2 className="text-2xl font-bold text-[#FFF]">Refresh Your Path.</h2>

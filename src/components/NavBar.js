@@ -29,7 +29,7 @@ const NavBar = () => {
                     }
                 </div>
                 <div>
-                    <Link to="/" className="text-xl"><FontAwesomeIcon icon={faCartShopping} onClick={()=>setBar(false)}/></Link>
+                    <Link to="/cart" className="text-xl"><FontAwesomeIcon icon={faCartShopping} onClick={()=>setBar(false)}/></Link>
                 </div>
             </div>
     )
