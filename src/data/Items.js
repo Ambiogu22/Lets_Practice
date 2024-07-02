@@ -24,13 +24,13 @@ const itemsArray = [
 ]
 
 const getItemData = (id) => {
-    const itemData = itemsArray.find(item.id === id)
+    let itemData = itemsArray.find(item => item.id === id)
 
     if(itemData === undefined){
-        return undefined
-    }else{
-        return itemData;
+        console.log(`Item ${id} is undefined`)
     }
+
+    return itemData;
 }
 
 export {itemsArray, getItemData}
