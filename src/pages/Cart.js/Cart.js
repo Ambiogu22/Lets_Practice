@@ -1,5 +1,5 @@
 import CartItemCard from "./CartItemCard";
-import { itemsArray } from "../../Data/Items";
+import { itemsArray } from "../../data/Items";
 
 const Cart = () => {
     return(

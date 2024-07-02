@@ -1,4 +1,4 @@
-import { itemsArray } from "../../Data/Items";
+import { itemsArray } from "../../data/Items";
 import ShopItemCard from "./ShopItemCard";
 
 const Shop = () => {
