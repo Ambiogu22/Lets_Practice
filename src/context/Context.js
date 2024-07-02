@@ -10,16 +10,16 @@ export const AppContext = createContext({
     removeItem: () => {},
     getTotalCartItems: () => {},
     getTotalCartCost: () => {}
-})
+});
 
 export const AppProvider = ({children}) => {
 
     const [cartItems, setCartItems] = useState([]);
 
     const getItemQty = (id) => {
-        const qty = cartItems.find(item => item.id === id)?.qty
+        const qty = cartItems.find(item => item.id === id)?.qty;
 
-        if (qty === 0){
+        if (qty === undefined){
             return 0;
         }
 
@@ -32,17 +32,17 @@ export const AppProvider = ({children}) => {
         if(qty === 0){
             setCartItems([...cartItems, {id: id, qty: 1}])
         }else{
-            cartItems.map(item=>item.id === id ? {...item, qty: item.qty + 1} : item)
+            setCartItems(cartItems.map(item=>item.id === id ? {...item, qty: item.qty + 1} : item))
         }
     }
 
     const subtractQty = (id) => {
         const qty = getItemQty(id)
 
-        if(qty === 0){
+        if(qty === 1){
             removeItem(id)
         }else{
-            cartItems.map(item=>item.id === id ? {...item, qty: item.qty - 1} : item)
+            setCartItems(cartItems.map(item=>item.id === id ? {...item, qty: item.qty - 1} : item))
         }
     }
 

@@ -1,7 +1,13 @@
 import CartItemCard from "./CartItemCard";
-import { itemsArray } from "../../data/Items";
+import { useContext } from "react";
+import AppContext from "../../context/Context";
 
 const Cart = () => {
+
+    const cart = useContext(AppContext);
+
+    const cartItems = cart.items;
+
     return(
         <div>
             <h2 className="text-2xl font-semibold px-4 mt-2">Cart</h2>
@@ -14,8 +20,10 @@ const Cart = () => {
             </div>
             <div className="pb-8 px-4">
                 <div className="flex flex-col gap-4 my-8 mx-2">
-                    {itemsArray.map((item)=>(
-                        <CartItemCard item={item} />
+                    {cartItems.map((item, idx)=>(
+                        <div key={idx}>
+                            <CartItemCard item={item} />
+                        </div>
                     ))}
                 </div>
             </div>

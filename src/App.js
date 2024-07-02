@@ -5,12 +5,14 @@ import Shop from './pages/Shop/Shop';
 import NavBar from './components/NavBar';
 import Cart from './pages/Cart.js/Cart';
 import {Routes, Route} from 'react-router-dom';
+import { AppProvider } from './context/Context';
 // import Footer from './components/Footer';
 
 
 export default function App() {
   return (
     <div>
+      <AppProvider>
       <NavBar />
       <Routes>
         <Route path='/' element={<Home />}/>
@@ -18,6 +20,7 @@ export default function App() {
         <Route path='/cart' element={<Cart />}/>
       </Routes>
       {/* <Footer /> */}
+      </AppProvider>
     </div>
   );
 }

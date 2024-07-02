@@ -3,3 +3,5 @@
 -Add functions to Cart from Context
 
 -Finish Cart
+
+-Create "new" sticker for new items
