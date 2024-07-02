@@ -63,7 +63,7 @@ export const AppProvider = ({children}) => {
     }
 
     const getTotalCartCost = () => {
-        const totalCost = 0;
+        let totalCost = 0;
 
         cartItems.map((cartItem) => {
             const itemData = getItemData(cartItem.id);

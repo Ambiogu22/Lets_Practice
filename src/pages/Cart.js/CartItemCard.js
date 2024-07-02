@@ -17,15 +17,15 @@ const CartItemCard = (props) => {
             <div className="flex justify-center items-center">
                 <img src={cartItem.image} alt={cartItem.title} className="w-16"/>
                 <div className="flex flex-col items-start">
-                    <h2 className="text-md font-semibold">{cartItem.title}</h2>
+                    <h2 className="text-sm font-semibold">{cartItem.title}</h2>
                     <h2 className="text-sm font-semibold">${cartItem.price}</h2>
                 </div>
             </div>
             <div className="flex flex-col justify-around items-center gap-4">
                 <div className="flex">
-                    <button className="px-[13px] py-[2px] border-[1px] border-[#7A7A7A] rounded-l-full" onClick={()=>cart.subtractQty(item.id)}>-</button>
-                    <h2 className="px-[13px] py-[2px] border-[1px] border-[#7A7A7A]">{cartItemQty}</h2>
-                    <button className="px-[13px] py-[2px] border-[1px] border-[#7A7A7A] rounded-r-full" onClick={()=>cart.addQty(item.id)}>+</button>
+                    <button className="px-[13px] py-[1px] border-[1px] border-[#7A7A7A] rounded-l-full" onClick={()=>cart.subtractQty(item.id)}>-</button>
+                    <h2 className="px-[13px] py-[1px] border-[1px] border-[#7A7A7A]">{cartItemQty}</h2>
+                    <button className="px-[13px] py-[1px] border-[1px] border-[#7A7A7A] rounded-r-full" onClick={()=>cart.addQty(item.id)}>+</button>
                 </div>
                 <button className="text-xs underline" onClick={()=>cart.removeItem(item.id)}>Remove</button>
             </div>

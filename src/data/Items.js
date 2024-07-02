@@ -13,6 +13,36 @@ const itemsArray = [
     },
     {
         id: 2,
+        title: "Orange",
+        image: GreenPressedBottle,
+        price: 4.99,
+        shortDescription: "WIP",
+        LongDescription: "WIP",
+        newItem: false,
+        available: false
+    },
+    {
+        id: 3,
+        title: "Red",
+        image: GreenPressedBottle,
+        price: 4.99,
+        shortDescription: "WIP",
+        LongDescription: "WIP",
+        newItem: false,
+        available: false
+    },
+    {
+        id: 4,
+        title: "Purple",
+        image: GreenPressedBottle,
+        price: 4.99,
+        shortDescription: "WIP",
+        LongDescription: "WIP",
+        newItem: false,
+        available: false
+    },
+    {
+        id: 5,
         title: "5x5 Detox Carrot Juice",
         image: GreenPressedBottle,
         price: 29.99,
