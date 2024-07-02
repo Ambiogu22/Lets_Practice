@@ -1,7 +1,9 @@
--Create and finish Context
+-Add items count on top of cart logo
 
--Add functions to Cart from Context
+-Create  and add "new" sticker for new items
 
--Finish Cart
+-Create checkout page
 
--Create "new" sticker for new items
+-Add Shipping fee in checkout
+
+-Finish Footer
