@@ -1,5 +1,3 @@
--Add Order Canceled Page
-
 -Create checkout page
 
 -Add Shipping fee in checkout

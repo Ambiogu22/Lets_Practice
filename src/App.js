@@ -9,6 +9,7 @@ import { AppProvider } from './context/Context';
 import ItemPage from './components/ItemPage';
 import NotFound from './components/NotFound';
 import Success from './pages/Checkout/Success';
+import Canceled from './pages/Checkout/Canceled';
 // import Footer from './components/Footer';
 
 
@@ -24,6 +25,7 @@ export default function App() {
         <Route path='/cart' element={<Cart />}/>
         <Route path='*' element={<NotFound />} />
         <Route path='/success' element={<Success />} />
+        <Route path='/canceled' element={<Canceled />} />
       </Routes>
       {/* <Footer /> */}
       </AppProvider>
