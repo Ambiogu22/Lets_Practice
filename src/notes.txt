@@ -1,10 +1,10 @@
--Create checkout page
-
--Add Shipping fee in checkout
-
--When going to the checkout page if an itemQty is < 5 ask if the user want
+-In the cart page if an itemQty is < 5 ask if the user want
 to make it 5 and get them cheaper?
 
 -Sort the items in shop: Availables, New, Coming soon, etc.
 
 -Finish Footer
+
+-Learn how to use Stripe for the checkout
+
+-Launch webapp

@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import AppContext from "../../context/Context";
 import { getItemData } from "../../data/Items";
+import { Link } from "react-router-dom";
 
 const CartItemCard = (props) => {
 
@@ -15,7 +16,9 @@ const CartItemCard = (props) => {
     return(
         <div className="flex justify-between items-center border-[1px] border-[#727272] p-4 rounded-lg">
             <div className="flex justify-center items-center">
+                <Link to={cartItem.slug}>
                 <img src={cartItem.image} alt={cartItem.title} className="w-16"/>
+                </Link>
                 <div className="flex flex-col items-start">
                     <h2 className="text-sm font-semibold">{cartItem.title}</h2>
                     <h2 className="text-sm font-semibold">${cartItem.price}</h2>
