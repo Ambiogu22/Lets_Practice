@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import AppContext from "../../context/Context";
+import { Link } from "react-router-dom";
 
 const ShopItemCard = (props) => {
 
@@ -17,7 +18,9 @@ const ShopItemCard = (props) => {
                 <h2 className="text-center py-[6px] px-[4px] text-[12px] bg-[#000] rounded-full text-[#FFF] absolute top-[8px] left-[8px]">new</h2>
             }
             <div className="flex max-w-32 max-h-40 flex-col justify-around items-center text-center gap-2">
+                <Link to={item.slug}>
                 <img src={item.image} alt={item.title} className="w-32"/>
+                </Link>
                 <h2 className="text-md font-semibold ">{item.title}</h2>
             </div>
             <div className="flex flex-col justify-center items-center gap-4">

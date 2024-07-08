@@ -1,4 +1,4 @@
--Create page and components for each item full description.
+-Add option for a 5 pack juices for lower price.
 
 -Create checkout page
 
