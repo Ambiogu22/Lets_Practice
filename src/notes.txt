@@ -1,9 +1,9 @@
--Add items count on top of cart logo
-
--Create  and add "new" sticker for new items
+-Create page and components for each item full description.
 
 -Create checkout page
 
 -Add Shipping fee in checkout
+
+-Sort the items in shop: Availables, New, Coming soon, etc.
 
 -Finish Footer

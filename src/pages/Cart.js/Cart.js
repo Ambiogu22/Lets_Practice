@@ -22,7 +22,7 @@ const Cart = () => {
                     <h2 className="text-lg">Subtotal ({totalCartItems} Items):</h2>
                         <h2 className="text-xl font-semibold">${totalCartCost}</h2>
                     </div>
-                    <button className="text-[#FFF] bg-[#000] rounded-full w-full px-8 py-[4px]">Proceed to checkout (1 Item)</button>
+                    <button className="text-[#FFF] bg-[#000] rounded-full w-full px-8 py-[4px]">Proceed to checkout ({totalCartItems} Items)</button>
                 </div>
             : 
                 <div className="flex flex-col justify-center items-center gap-8">

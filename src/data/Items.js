@@ -6,20 +6,24 @@ const itemsArray = [
         title: "Green",
         image: GreenPressedBottle,
         price: 4.99,
-        shortDescription: "WIP",
-        LongDescription: "WIP",
-        newItem: false,
-        available: false
+        description: "WIP",
+        benefits: "WIP",
+        ingredients: "WIP",
+        newItem: true,
+        available: true,
+        slug:"green-juice"
     },
     {
         id: 2,
         title: "Orange",
         image: GreenPressedBottle,
         price: 4.99,
-        shortDescription: "WIP",
-        LongDescription: "WIP",
+        description: "WIP",
+        benefits: "WIP",
+        ingredients: "WIP",
         newItem: false,
-        available: false
+        available: false,
+        slug:"orange-juice"
     },
     {
         id: 3,
@@ -48,8 +52,8 @@ const itemsArray = [
         price: 29.99,
         shortDescription: "WIP",
         LongDescription: "WIP",
-        newItem: false,
-        available: false
+        newItem: true,
+        available: true
     }
 ]
 
