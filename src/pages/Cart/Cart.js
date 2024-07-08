@@ -15,7 +15,7 @@ const Cart = () => {
 
     return(
         <div>
-            <h2 className="text-2xl font-semibold px-4 mt-2">Cart</h2>
+            <h2 className="text-2xl font-semibold px-4 mt-16">Cart</h2>
             {cart.items.length >= 1 ?
                 <div className="flex flex-col items-start sticky top-[90px] bg-[#FFF] shadow-[0px_4px_4px_0px] shadow-[#8A8A8A] px-8 py-4 gap-4">
                     <div className="flex items-center justify-between">
@@ -25,7 +25,7 @@ const Cart = () => {
                     <button className="text-[#FFF] bg-[#000] rounded-full w-full px-8 py-[4px]">Proceed to checkout ({totalCartItems} Items)</button>
                 </div>
             : 
-                <div className="flex flex-col justify-center items-center gap-8">
+                <div className="flex flex-col justify-center items-center gap-8 my-10">
                     <h2 className="text-2xl font-semibold px-4 mt-2">Your cart is empty.</h2>
                     <Link to='/shop' className="text-[#FFF] bg-[#000] rounded-full px-8 py-[4px]">Shop</Link>
                 </div>

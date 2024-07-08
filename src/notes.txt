@@ -1,8 +1,11 @@
--Add option for a 5 pack juices for lower price.
+-Add Order Canceled Page
 
 -Create checkout page
 
 -Add Shipping fee in checkout
+
+-When going to the checkout page if an itemQty is < 5 ask if the user want
+to make it 5 and get them cheaper?
 
 -Sort the items in shop: Availables, New, Coming soon, etc.
 
