@@ -8,9 +8,10 @@ const itemsArray = [
         price: 4.99,
         description: "Green Juice put a sweet spin on this balanced green juice. Green spinach and kale, hydrating cucumber and other leafy veggies are balanced by apples and lemon. A perfect choice for those new to juicing.",
         benefits: "Balanced Greens - A balance of fruit & vegetables, enjoy the benefits of adding an easy-to-drink, refreshing green juice to your day.",
-        ingredients: "Apple Juice, Cucumber Juice, Celery Juice, Lemon Juice, Spinach Juice, Kale Juice, Parsley",
-        newItem: true,
+        ingredients: "Apple Juice, Cucumber Juice, Celery Juice, Lemon Juice, Spinach Juice, Kale Juice, Parsley.",
+        newItem: false,
         available: true,
+        detox: false,
         slug:"green-juice"
     },
     {
@@ -23,6 +24,7 @@ const itemsArray = [
         ingredients: "WIP",
         newItem: false,
         available: false,
+        detox: false,
         slug:"orange-juice"
     },
     {
@@ -33,7 +35,8 @@ const itemsArray = [
         shortDescription: "WIP",
         LongDescription: "WIP",
         newItem: false,
-        available: false
+        available: false,
+        detox: false
     },
     {
         id: 4,
@@ -43,7 +46,8 @@ const itemsArray = [
         shortDescription: "WIP",
         LongDescription: "WIP",
         newItem: false,
-        available: false
+        available: false,
+        detox: false
     },
     {
         id: 5,
@@ -55,6 +59,7 @@ const itemsArray = [
         ingredients: "Apple Juice, Cucumber Juice, Celery Juice, Lemon Juice, Spinach Juice, Kale Juice, Parsley",
         newItem: true,
         available: true,
+        detox: true,
         slug:"5x5-detox-carrot-juice"
     }
 ]
