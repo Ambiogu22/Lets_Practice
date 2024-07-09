@@ -1,5 +1,3 @@
--Finish Footer
-
 -Finish the responsive design
 
 -Learn how to use Stripe for the checkout

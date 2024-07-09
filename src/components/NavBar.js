@@ -19,7 +19,7 @@ const NavBar = () => {
 
     return(
             <div className="flex items-center justify-between py-8 px-12 shadow-[0px_-2px_10px_0px] shadow-[#8A8A8A] sticky w-full z-50 top-0 bg-[#FFF]">
-                <div className="flex gap-8 items-center">
+                <div className="flex gap-8 items-center md:hidden">
                     {bar == false 
                     ?
                         <>
@@ -33,6 +33,12 @@ const NavBar = () => {
                             <Link to="/shop" className="text-lg font-semibold" onClick={handleBar}>Shop</Link>
                         </>
                     }
+                </div>
+                <div className="flex gap-8 items-center hidden md:flex">
+                        <>
+                            <Link to="/" className="text-xl font-bold">VFRESH</Link>
+                            <Link to="/shop" className="text-lg font-semibold" onClick={handleBar}>Shop</Link>
+                        </>
                 </div>
                 <div className="relative">
                     <Link to="/cart">
