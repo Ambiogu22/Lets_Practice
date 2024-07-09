@@ -10,12 +10,12 @@ import ItemPage from './components/ItemPage';
 import NotFound from './components/NotFound';
 import Success from './pages/Checkout/Success';
 import Canceled from './pages/Checkout/Canceled';
-// import Footer from './components/Footer';
+import Footer from './components/Footer';
 
 
 export default function App() {
   return (
-    <div>
+    <div className='flex flex-col min-h-screen'>
       <AppProvider>
       <NavBar />
       <Routes>
@@ -28,7 +28,7 @@ export default function App() {
         <Route path='/success' element={<Success />} />
         <Route path='/canceled' element={<Canceled />} />
       </Routes>
-      {/* <Footer /> */}
+      <Footer />
       </AppProvider>
     </div>
   );

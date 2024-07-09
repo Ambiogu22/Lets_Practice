@@ -11,7 +11,7 @@ const Home = () => {
             <div className='flex flex-col my-24 gap-10'>
                 <div className='relative flex justify-center items-center'>
                     <img src={GreenJuice} alt="Green Juice Image" />
-                    <Link to='/shop' className='absolute bottom-8'><Button title="Shop Now"/></Link>
+                    <Link to='/shop/green-juice' className='absolute bottom-8'><Button title="Shop Now"/></Link>
                 </div>
                 <div className='flex flex-col justify-center items-center gap-20'>
                     <div className='flex flex-col justify-center items-center gap-4 px-8'>
@@ -33,7 +33,7 @@ const Home = () => {
                             img={Detox5x5} 
                             description="Unlock the natural detoxifying benefits of carrots with our 5-Day Carrot Juice Detox."
                         />
-                        <Button title="More Info"/>
+                        <Link to="/shop/5x5-detox-carrot-juice"><Button title="More Info"/></Link>
                     </div>
                 </div>
             </div>
